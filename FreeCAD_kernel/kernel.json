@@ -1,0 +1,4 @@
+{
+ "argv": ["python", "-m", "freecadkernel"],
+ "display_name": "FreeCAD"
+}
