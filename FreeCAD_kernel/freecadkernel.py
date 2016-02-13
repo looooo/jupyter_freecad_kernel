@@ -1,7 +1,6 @@
 import sys
 from ipykernel.ipkernel import IPythonKernel as Kernel
 
-
 class FreeCADKernel(Kernel):
     implementation = 'FreeCAD'
     implementation_version = '0.1'
