@@ -1,5 +1,8 @@
 import sys
+import os
 from ipykernel.ipkernel import IPythonKernel as Kernel
+
+os.environ["QT_API"] = "pyside"
 
 class FreeCADKernel(Kernel):
     implementation = 'FreeCAD'
