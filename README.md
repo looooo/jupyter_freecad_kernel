@@ -8,7 +8,7 @@ A FreeCAD Kernel for Jupyter
 
 ## Installation
 1. clone this repository (git clone https://github.com/looooo/jupyter_freecad_kernel)
-2. run jupyter kernelspec install /path/to/FreeCAD_kernel (withoud trailing "/")
+2. run "jupyter kernelspec install /path/to/FreeCAD_kernel" (withoud trailing "/")
 3. make the freecadkernel.py python importable (copy/link it to a place python can find it)
 
 ## Get started
